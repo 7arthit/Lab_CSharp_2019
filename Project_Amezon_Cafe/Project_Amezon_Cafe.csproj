@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D1ACF9C1-D1F4-4687-87E9-04AA8783DFDF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Project_Amezon_Cafe</RootNamespace>
+    <AssemblyName>Project_Amezon_Cafe</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\แบล็คคอฟฟี่ %28Black Coffee%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\แบล็คคอฟฟี่น้ำผึ่้ง %28Honey Black Coffee%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\แบล็คคอฟฟี่น้ำผึ้งมะนาว %28Black Coffee Honey Lemon%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\อเมซอนเอ็กซ์ตร้า %28Amazon Extra%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\คาปูชิโน %28Cappuccino%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\เอสเพรสโซ่ %28Espressso%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\คาปูชิโน %28Cappuccino%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ลาเต้อเมซอน %28Latte Amazon%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\มอคค่า %28Mocha%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ไวท์ ช็อค มัคคิอาโต้.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ชา %28Tea%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ชาเขียวนม %28Green Tea With Milk%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ชานม %28Tea With Milk%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ชามะนาว %28Lemon Tea%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ชาดำ %28Black Tea%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ชาเขียวน้ำผึ้งมะนาวเจลลี่ %28Green Tea Honey Lime With Jelly%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\มัทฉะถั่วแดง.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ไลท์คอฟฟี่ฮันนี่ %28Light Coffee Honey%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\เฟรชคาเฟ่ลาเต้ %28Fresh Cafe Latte%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\แบล็คที่ฮันนี่ %28Black Tea Honey%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\มัทฉะฮันนี่ %28Matcha Honey%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\มัทฉะลาเต้ %28Matcha Latte%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\เฟรชมิลค์ที %28Fresh Milk Tea%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ดาร์คช็อกโกแลต %28Dark Chocolate%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\นมสด%28Fresh Milk%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ช็อคโกแลต%28Chocolate%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\สตรอเบอร์รี่ชีสเค้ก %28Strawberry Cheesecake%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\น้ำลิ้นจี่ %28Lychee Juice%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\น้ำผลไม้ปั่น %28สตรอเบอร์รี่%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\น้ำผลไม้ปั่น กี่วี่ปั่น.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\น้ำผลไม้ปั่น %28 มิกซ์เบอร์รี่%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\โยเกิร์ตสมูทตี้ %28สตรอเบอร์รี่%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\โยเกิร์ตสมูทตี้ %28มิกซ์เบอร์รี่%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="แบล็คคอฟฟี่ (Black Coffee)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\แบล็คคอฟฟี่ (Black Coffee).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="เฟรชคาเฟ่ลาเต้ (Fresh Cafe Latte)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\เฟรชคาเฟ่ลาเต้ (Fresh Cafe Latte).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="น้ำผลไม้ปั่น กี่วี่ปั่น" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\น้ำผลไม้ปั่น กี่วี่ปั่น.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ไวท์ ช็อค มัคคิอาโต้" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ไวท์ ช็อค มัคคิอาโต้.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="คาปูชิโน (Cappuccino)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\คาปูชิโน (Cappuccino).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ลาเต้อเมซอน (Latte Amazon)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ลาเต้อเมซอน (Latte Amazon).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ชาเขียวนม (Green Tea With Milk)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ชาเขียวนม (Green Tea With Milk).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="น้ำลิ้นจี่ (Lychee Juice)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\น้ำลิ้นจี่ (Lychee Juice).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="น้ำผลไม้ปั่น (สตรอเบอร์รี่)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\น้ำผลไม้ปั่น (สตรอเบอร์รี่).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="แบล็คที่ฮันนี่ (Black Tea Honey)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\แบล็คที่ฮันนี่ (Black Tea Honey).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="มัทฉะลาเต้ (Matcha Latte)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\มัทฉะลาเต้ (Matcha Latte).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ชานม (Tea With Milk)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ชานม (Tea With Milk).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="คาปูชิโน (Cappuccino)3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\คาปูชิโน (Cappuccino).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="แบล็คคอฟฟี่น้ำผึ่้ง (Honey Black Coffee)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\แบล็คคอฟฟี่น้ำผึ่้ง (Honey Black Coffee).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ชามะนาว (Lemon Tea)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ชามะนาว (Lemon Tea).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="มัทฉะถั่วแดง" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\มัทฉะถั่วแดง.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="นมสด(Fresh Milk)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\นมสด(Fresh Milk).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ชา (Tea)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ชา (Tea).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="มัทฉะฮันนี่ (Matcha Honey)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\มัทฉะฮันนี่ (Matcha Honey).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="เฟรชมิลค์ที (Fresh Milk Tea)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\เฟรชมิลค์ที (Fresh Milk Tea).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="สตรอเบอร์รี่ชีสเค้ก (Strawberry Cheesecake)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\สตรอเบอร์รี่ชีสเค้ก (Strawberry Cheesecake).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="โยเกิร์ตสมูทตี้ (สตรอเบอร์รี่)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\โยเกิร์ตสมูทตี้ (สตรอเบอร์รี่).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="มอคค่า (Mocha)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\มอคค่า (Mocha).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ชาดำ (Black Tea)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ชาดำ (Black Tea).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ช็อคโกแลต(Chocolate)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ช็อคโกแลต(Chocolate).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="คาปูชิโน (Cappuccino)4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\คาปูชิโน (Cappuccino).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ไลท์คอฟฟี่ฮันนี่ (Light Coffee Honey)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ไลท์คอฟฟี่ฮันนี่ (Light Coffee Honey).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="เอสเพรสโซ่ (Espressso)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\เอสเพรสโซ่ (Espressso).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ดาร์คช็อกโกแลต (Dark Chocolate)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ดาร์คช็อกโกแลต (Dark Chocolate).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="อเมซอนเอ็กซ์ตร้า (Amazon Extra)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\อเมซอนเอ็กซ์ตร้า (Amazon Extra).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ชาเขียวน้ำผึ้งมะนาวเจลลี่ (Green Tea Honey Lime With Jelly)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ชาเขียวน้ำผึ้งมะนาวเจลลี่ (Green Tea Honey Lime With Jelly).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="แบล็คคอฟฟี่น้ำผึ้งมะนาว (Black Coffee Honey Lemon)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\แบล็คคอฟฟี่น้ำผึ้งมะนาว (Black Coffee Honey Lemon).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="คาปูชิโน (Cappuccino)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\คาปูชิโน (Cappuccino)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="น้ำผลไม้ปั่น ( มิกซ์เบอร์รี่)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\น้ำผลไม้ปั่น ( มิกซ์เบอร์รี่).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="คาปูชิโน (Cappuccino)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\คาปูชิโน (Cappuccino).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="โยเกิร์ตสมูทตี้ (มิกซ์เบอร์รี่)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\โยเกิร์ตสมูทตี้ (มิกซ์เบอร์รี่).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
